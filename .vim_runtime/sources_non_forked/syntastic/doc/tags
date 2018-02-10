@@ -346,6 +346,7 @@ syntastic-checkers-xslt	syntastic-checkers.txt	/*syntastic-checkers-xslt*
 syntastic-checkers-yacc	syntastic-checkers.txt	/*syntastic-checkers-yacc*
 syntastic-checkers-yaml	syntastic-checkers.txt	/*syntastic-checkers-yaml*
 syntastic-checkers-yang	syntastic-checkers.txt	/*syntastic-checkers-yang*
+syntastic-checkers-yara	syntastic-checkers.txt	/*syntastic-checkers-yara*
 syntastic-checkers-z80	syntastic-checkers.txt	/*syntastic-checkers-z80*
 syntastic-checkers-zpt	syntastic-checkers.txt	/*syntastic-checkers-zpt*
 syntastic-checkers-zsh	syntastic-checkers.txt	/*syntastic-checkers-zsh*
@@ -617,6 +618,7 @@ syntastic-yaml-jsyaml	syntastic-checkers.txt	/*syntastic-yaml-jsyaml*
 syntastic-yaml-yamllint	syntastic-checkers.txt	/*syntastic-yaml-yamllint*
 syntastic-yaml-yamlxs	syntastic-checkers.txt	/*syntastic-yaml-yamlxs*
 syntastic-yang-pyang	syntastic-checkers.txt	/*syntastic-yang-pyang*
+syntastic-yara-yarac	syntastic-checkers.txt	/*syntastic-yara-yarac*
 syntastic-ycm	syntastic.txt	/*syntastic-ycm*
 syntastic-z80-z80syntaxchecker	syntastic-checkers.txt	/*syntastic-z80-z80syntaxchecker*
 syntastic-zpt-zptlint	syntastic-checkers.txt	/*syntastic-zpt-zptlint*

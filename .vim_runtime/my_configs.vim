@@ -1,4 +1,3 @@
-call yankstack#setup()
 set relativenumber
 set pastetoggle=<F3>
 set updatetime=1000
@@ -53,12 +52,22 @@ let g:ycm_global_ycm_extra_conf = '/usr/share/vim/vimfiles/third_party/ycmd/cpp/
 let g:livepreview_previewer = 'zathura'
 let g:livepreview_engine = 'xelatex'
 
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Set the following lines in your ~/.nvimrc or the systemwide /etc/nvimrc:
- set grepprg=grep\ -nH\ $*
- let g:tex_flavor = "latex"
- 
-" Also, this installs to /usr/share/vim/vimfiles, which may not be in
- set runtimepath=~/.nvim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,~/.nvim/after
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Latex-suite options
+
+let g:Tex_DefaultTargetFormat ='pdf'
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Indentation settings 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType md setlocal shiftwidth=2 tabstop=2
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Instant markdown plugin 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:instant_markdown_autostart = 0
 
